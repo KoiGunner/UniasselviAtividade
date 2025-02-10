@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation-bar {
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    position: absolute;
+}
+
+.inside-navigation-bar{
+    display: flex;
+    gap: 20px;
+
+}
+
+summary {
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.informacoes-gerais{
+    width: 100%;
+    height: 400px;
+    background-color: greenyellow;
+}
+
+.solicitando-ajuda {
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.casos-comuns {
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+}
