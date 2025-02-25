@@ -5,10 +5,17 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 h1, h2 {
     font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 html {
@@ -17,6 +24,7 @@ html {
 
 .informacoes-gerais {
     display: flex;
+    
     justify-content: space-between;
 }
 
@@ -31,7 +39,7 @@ img {
 .navigation-bar{
     background-color: gray;
     height: 50px;
-    padding-left: 1%;
+    padding-left: 3%;
     display: flex;
     justify-content: space-between;
 }
@@ -41,15 +49,16 @@ img {
 }
 
 .inside-navigation-bar{
-    left: 1%;
     display: flex;
-    
+    gap: 15px;
+    padding-right: 3%;
 }
 
 .left-side{
     background-color: aqua;
-    width: auto;
-    padding-left: 1%;
+    width: 100%;
+    height: 400px;
+    padding-left: 5%;
 }
 
 
@@ -86,15 +95,21 @@ img {
 }
 
 .left-localizacao{
-
+    height: 200px;
+    width: 300px;
+    background-color: red;
 }
 
 .right-localizacao{
-    
+    height: 200px;
+    width: 300px;
+    background-color: green;
 }
 
-.right-localizacao{
-    
+.center-localizacao{
+    height: 200px;
+    width: 300px;
+    background-color: burlywood;
 }
 
 footer{
